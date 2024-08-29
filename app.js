@@ -40,7 +40,7 @@ app.listen(8800, ()=>{
 
 const io = new Server({
     cors: {
-        origin:"http://localhost:8800",
+        origin:process.env.CLIENT_URL,
     }
 });
 

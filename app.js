@@ -40,7 +40,7 @@ app.listen(8800, ()=>{
 
 const io = new Server({
     cors: {
-        origin:"https://homequest-ucjd.onrender.com",
+        origin:"http://localhost:8800",
     }
 });
 
